@@ -1,30 +1,10 @@
-========================================================================
-    C++/WinRT bmp Project Overview
-========================================================================
+Napisz program wczytujšcy meta dane pliku test.bmp
 
-This project demonstrates how to get started consuming Windows Runtime 
-classes directly from standard C++, using platform projection headers
-generated from Windows SDK metadata files.
+Wczytane dane nale¿y wydrukowaæ w konsoli. 
 
-Steps to generate and consume SDK platform projection:
-1. Build project initially to generate platform projection headers into
-    your Generated Files folder.
-2. Include a projection namespace header in your pch.h, such as 
-    <winrt/Windows.Foundation.h>.
-3. Consume winrt namespace and any Windows Runtime namespaces, such as 
-    winrt::Windows::Foundation, from source code.
-4. Initialize apartment via init_apartment() and consume winrt classes.
+(Zapoznaj siê ze strukturš pliku BMP : https://pl.wikipedia.org/wiki/Windows_Bitmap )
 
-Steps to generate and consume a projection from third party metadata:
-1. Add a WinMD reference by right-clicking the References project node
-    and selecting "Add Reference...".  In the Add References dialog, 
-    browse to the component WinMD you want to consume and add it.
-2. Build the project once to generate projection headers for the 
-    referenced WinMD file under the "Generated Files" subfolder.
-3. As above, include projection headers in pch or source code 
-    to consume projected Windows Runtime classes.
 
-========================================================================
-Learn more about C++/WinRT here:
-http://aka.ms/cppwinrt/
-========================================================================
+Na ocenê 5: Program tworzy negatyw obrazu
+
+Jako rozwišzanie nale¿y wstawiæ link do w³asnego repozytorium. 
